@@ -9,10 +9,11 @@ Top-Down Attention for Image Captioning and Visual Question Answering"
 Question Answering: Learnings from the 2017 Challenge"
 (https://arxiv.org/abs/1708.02711).
 
+We modify the BUTD code in both above repos to make it applicable to any new image on the website.
+In addition, we re-draw the image to show the attention on the image.
 We further improved the above models in the following ways:
 - Make use of position information in the attention model
 - Add a layer to the attention model, which improves the accuracy
 
-We include the pre-trained attention model as a tar.gz in this repo.
-You need to decompress it. Also, you need to clone and install the tool
-[here](https://github.com/peteanderson80/bottom-up-attention).
+We include the pre-trained attention model as a tar.gz in this repo, which is last missing piece of pre-trained models needed in those two repos.
+The users will need to decompress it. Also, the users need to follow the installation instruments in the two sub-folders, and download the pre-trained models and dictionaries..
